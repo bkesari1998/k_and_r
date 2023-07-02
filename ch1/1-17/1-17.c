@@ -5,6 +5,9 @@
 int my_getline (char line[], int maxline);
 void copy (char to[], char from[]);
 
+/*
+Prints each line of input longer than 80 characters.
+*/
 int main(void) {
     int line_len;
     char line[MAX_LINE];
